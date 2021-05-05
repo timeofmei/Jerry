@@ -3,24 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E11FFD062641BDE900339385 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = E11FFD052641BDE900339385 /* SwiftUIX */; };
 		E1906AF8263E839B00115C1A /* JerryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1906AF7263E839B00115C1A /* JerryApp.swift */; };
-		E1906AFA263E839B00115C1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1906AF9263E839B00115C1A /* ContentView.swift */; };
 		E1906AFC263E839B00115C1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1906AFB263E839B00115C1A /* Assets.xcassets */; };
 		E1906AFF263E839B00115C1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1906AFE263E839B00115C1A /* Preview Assets.xcassets */; };
+		E1906B0E263E83A800115C1A /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1906B0A263E83A800115C1A /* ColorHelper.swift */; };
+		E19ED01F2641405700E6D7DA /* ConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19ED0182641405700E6D7DA /* ConnectView.swift */; };
+		E19ED0202641405700E6D7DA /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19ED0192641405700E6D7DA /* AboutView.swift */; };
+		E19ED0212641405700E6D7DA /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19ED01A2641405700E6D7DA /* TabButton.swift */; };
+		E19ED0222641405700E6D7DA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19ED01B2641405700E6D7DA /* HomeViewModel.swift */; };
+		E19ED0232641405700E6D7DA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19ED01C2641405700E6D7DA /* SettingsView.swift */; };
+		E19ED0242641405700E6D7DA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19ED01D2641405700E6D7DA /* LoginView.swift */; };
+		E19ED0252641405700E6D7DA /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19ED01E2641405700E6D7DA /* BlurView.swift */; };
+		E19ED0272641406300E6D7DA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19ED0262641406300E6D7DA /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E1906AF4263E839B00115C1A /* Jerry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jerry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1906AF7263E839B00115C1A /* JerryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JerryApp.swift; sourceTree = "<group>"; };
-		E1906AF9263E839B00115C1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E1906AFB263E839B00115C1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1906AFE263E839B00115C1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E1906B00263E839B00115C1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1906B01263E839B00115C1A /* Jerry.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jerry.entitlements; sourceTree = "<group>"; };
+		E1906B0A263E83A800115C1A /* ColorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
+		E19ED0182641405700E6D7DA /* ConnectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectView.swift; sourceTree = "<group>"; };
+		E19ED0192641405700E6D7DA /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		E19ED01A2641405700E6D7DA /* TabButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		E19ED01B2641405700E6D7DA /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		E19ED01C2641405700E6D7DA /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E19ED01D2641405700E6D7DA /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E19ED01E2641405700E6D7DA /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		E19ED0262641406300E6D7DA /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E11FFD062641BDE900339385 /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +71,10 @@
 		E1906AF6263E839B00115C1A /* Jerry */ = {
 			isa = PBXGroup;
 			children = (
+				E19ED02B2641417800E6D7DA /* Helper */,
+				E19ED0292641416000E6D7DA /* View */,
+				E19ED02A2641416800E6D7DA /* ViewModel */,
 				E1906AF7263E839B00115C1A /* JerryApp.swift */,
-				E1906AF9263E839B00115C1A /* ContentView.swift */,
 				E1906AFB263E839B00115C1A /* Assets.xcassets */,
 				E1906B00263E839B00115C1A /* Info.plist */,
 				E1906B01263E839B00115C1A /* Jerry.entitlements */,
@@ -69,6 +89,36 @@
 				E1906AFE263E839B00115C1A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E19ED0292641416000E6D7DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E19ED0192641405700E6D7DA /* AboutView.swift */,
+				E19ED01E2641405700E6D7DA /* BlurView.swift */,
+				E19ED0182641405700E6D7DA /* ConnectView.swift */,
+				E19ED0262641406300E6D7DA /* Home.swift */,
+				E19ED01D2641405700E6D7DA /* LoginView.swift */,
+				E19ED01C2641405700E6D7DA /* SettingsView.swift */,
+				E19ED01A2641405700E6D7DA /* TabButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E19ED02A2641416800E6D7DA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E19ED01B2641405700E6D7DA /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E19ED02B2641417800E6D7DA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E1906B0A263E83A800115C1A /* ColorHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +137,9 @@
 			dependencies = (
 			);
 			name = Jerry;
+			packageProductDependencies = (
+				E11FFD052641BDE900339385 /* SwiftUIX */,
+			);
 			productName = Jerry;
 			productReference = E1906AF4263E839B00115C1A /* Jerry.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +167,9 @@
 				Base,
 			);
 			mainGroup = E1906AEB263E839B00115C1A;
+			packageReferences = (
+				E11FFD042641BDE900339385 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
 			productRefGroup = E1906AF5263E839B00115C1A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,7 +196,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1906AFA263E839B00115C1A /* ContentView.swift in Sources */,
+				E19ED0232641405700E6D7DA /* SettingsView.swift in Sources */,
+				E19ED0202641405700E6D7DA /* AboutView.swift in Sources */,
+				E19ED0272641406300E6D7DA /* Home.swift in Sources */,
+				E19ED0222641405700E6D7DA /* HomeViewModel.swift in Sources */,
+				E19ED01F2641405700E6D7DA /* ConnectView.swift in Sources */,
+				E1906B0E263E83A800115C1A /* ColorHelper.swift in Sources */,
+				E19ED0252641405700E6D7DA /* BlurView.swift in Sources */,
+				E19ED0212641405700E6D7DA /* TabButton.swift in Sources */,
+				E19ED0242641405700E6D7DA /* LoginView.swift in Sources */,
 				E1906AF8263E839B00115C1A /* JerryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +246,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -243,6 +308,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -333,6 +399,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E11FFD042641BDE900339385 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E11FFD052641BDE900339385 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E11FFD042641BDE900339385 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E1906AEC263E839B00115C1A /* Project object */;
 }

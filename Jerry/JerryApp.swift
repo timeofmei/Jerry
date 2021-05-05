@@ -11,7 +11,8 @@ import SwiftUI
 struct JerryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Home()
         }
+        .windowStyle(HiddenTitleBarWindowStyle())
     }
 }
